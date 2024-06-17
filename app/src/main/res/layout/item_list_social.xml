@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="4dp"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+           >
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="260dp"
+            android:layout_height="230dp"
+            android:src="@drawable/img"
+            />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/instagram"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                />
+        <TextView
+            android:id="@+id/txt_data"
+            android:layout_width="184dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="30dp"
+            android:layout_below="@+id/img"
+            android:text="@string/footer"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/strawford_light"
+            android:textSize="16sp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

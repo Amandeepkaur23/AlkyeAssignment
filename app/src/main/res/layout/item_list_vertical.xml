@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    android:layout_marginHorizontal="10dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="150dp"
+            android:layout_height="310dp"
+            android:scaleY="3"
+            android:src="@drawable/img"/>
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toEndOf="@+id/img"
+            android:src="@drawable/youtube"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:id="@+id/tech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="technology"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@+id/img"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/youtube"
+            android:fontFamily="@font/strawford_black"
+            android:drawableStart="@drawable/ic_dot"
+            android:drawablePadding="10dp"
+            android:textSize="11sp"/>
+        <TextView
+            android:id="@+id/txt_data"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="@string/step_into_tomorrow"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@+id/img"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tech"
+            android:fontFamily="@font/strawford_light"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26 Feb 2024"
+            android:textColor="@color/gray"
+            android:layout_toEndOf="@+id/img"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="160dp"
+            android:layout_below="@+id/tech"
+            android:fontFamily="@font/strawford_black"
+            android:textSize="12sp"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

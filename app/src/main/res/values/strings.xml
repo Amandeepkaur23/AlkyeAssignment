@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AlkyeAssignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="social">Stay update with my latest post on your favorite platforms</string>
+    <string name="step_into_tomorrow"> <font><b>Step Into Tomorrow:</b></font> Exploring Spatial Computing’s Impact On Industries And The Metaverse!</string>
+    <string name="footer">The Ultimate Guide To Simplifying Your Routine With Generative AI Automation!</string>
+</resources>
